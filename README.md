@@ -13,14 +13,10 @@ Last updated Feb 8th 2024.
 -   [https://htmlemail.io/inline/](https://htmlemail.io/inline/) (free)  
     
 -   [https://app.postdrop.io/](https://app.postdrop.io/) (free)  
-      
-    
 
 **Need to send test emails?**  
 
 -   [https://app.postdrop.io/](https://app.postdrop.io/) (free)  
-      
-    
 
 **Need to validate that your HTML works with different email providers?**  
 
@@ -40,10 +36,9 @@ The most straightforward option (imo) is to base 64 encode the image, and use th
 
 ## The Template
 
-To make this plug-and-play. I split out the chunks and you can copy paste where needed.
+To make this plug-and-play. I split out the chunks so you can copy paste where needed.
 
-Note that these will not be heavily styled. If you need to style further, the easiest route is to piece together you're template, then put your styles in a ```<script></script>``` tag in the html head and make use of the classes,
-then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all your new styles. Then the script tag can be removed. 
+Note that these will not be heavily styled. If you need to style further, the easiest route is to grab the emailNoStyles.html, and the existing styles in styles.css then plug them both into [https://app.postdrop.io/](https://app.postdrop.io/) and add additional styling as needed and hit download/export to grab the inlined version. Just don't forget to do your research and test that your email looks and functions as expected. 
   
 **Base**
 ```
@@ -55,7 +50,7 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 	<title>Your Title</title>  
 </head>  
 <body style="padding: 0; margin: 10px;">
-    	<!-- if desired, insert pre-header here. --> 
+    <!-- if desired, insert pre-header here. --> 
 	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; width: 640px;"  width="640">  
 		<tr>  
 			<td>  
@@ -149,7 +144,7 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 </table>
 ```
 
-**Link**
+**Unsubscribe Link**
 ```
 <a  id="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank">unsubscribe</a>
 ```
