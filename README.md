@@ -22,7 +22,7 @@ Last updated Feb 8th 2024.
 
 -   [https://www.htmlemailcheck.com/check/](https://www.htmlemailcheck.com/check/) (free on first check. Refresh page for more free checks)  
     
--   [https://www.emailonacid.com/](https://www.emailonacid.com/ "https://www.emailonacid.com/") (free 7 day trial. $99/mo after. A very extensive service)  
+-   [https://www.emailonacid.com/](https://www.emailonacid.com/ "https://www.emailonacid.com/") (free 7 day trial. $99/mo after. Only 5 free tests during free trial)  
 
 **A note on image embedding:**
 You have a few options when it comes to using images in  your HTML email template.
