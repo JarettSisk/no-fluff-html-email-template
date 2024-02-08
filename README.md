@@ -119,7 +119,7 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 
 **Clickable email address**
 ```
-<a rel="noopener" href="mailto:name@email.com">youremail@test.com</a>
+<a  rel="noopener"  href="mailto:YOUREMAIL@test.com">youremail@test.com</a>
 ```
 
 **Unordered List**
@@ -141,11 +141,11 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 ```
 **Button (CTA)**
 ```
-<table border="0" cellspacing="0" cellpadding="0">  
-	<tr>  
-		<td style="padding: 12px 18px 12px 18px; border-radius:5px; background-color: #1F7F4C;" align="left">
-			<a rel="noopener" href="REPLACEME" target="_blank" style="font-size: 18px; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>  
-		</td>  
-	</tr>  
+<table  class="button"  style="padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C;"  bgcolor="#1F7F4C">
+	<tr>
+		<td  style="text-align: center;"  align="center">
+			<a  rel="noopener"  href="REPLACEME"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>
+		</td>
+	</tr>
 </table>
 ```
