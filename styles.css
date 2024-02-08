@@ -8,7 +8,7 @@ body {
     font-family: Calibri, sans-serif;
     font-size: 16px;
     font-weight: normal;
-    width: 640px;
+    max-width: 640px;
 }
 
 /* All nested p tags */
@@ -74,5 +74,6 @@ body {
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
