@@ -26,7 +26,7 @@ Last updated Feb 8th 2024.
 
 **A note on image embedding:**
 You have a few options when it comes to using images in  your HTML email template.
-The most straightforward option (imo) is to base 64 encode the image, and use that.
+The most straightforward option (imo) is to base 64 encode the image and use the output.
 
  - https://www.base64-image.de/ (Free base 64 image encoder)
  
