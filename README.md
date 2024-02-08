@@ -38,7 +38,7 @@ The most straightforward option (imo) is to base 64 encode the image and use the
 
 To make this plug-and-play. I split out the chunks so you can copy paste where needed.
 
-Note that these will not be heavily styled. If you need to style further, the easiest route is to grab the emailNoStyles.html, and the existing styles in styles.css then paste the code into [https://app.postdrop.io/](https://app.postdrop.io/) and add additional styling as needed and hit download/export to grab the inlined version. Just don't forget to do your research and test that your email looks and functions as expected. 
+Note that these will not be heavily styled. If you need to style further, the easiest route is to grab the emailNoStyles.html, and the existing styles in styles.css then paste the code into [https://app.postdrop.io/](https://app.postdrop.io/) add additional styling as needed and hit download/export to grab the inlined version. Just don't forget to do your research and test that your email looks and functions as expected. 
   
 **Base**
 ```
