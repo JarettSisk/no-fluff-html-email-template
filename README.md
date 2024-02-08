@@ -10,7 +10,7 @@ Last updated Feb 8th 2024.
 
 **Need to format your css styles to be inline?**  
 
--   [https://htmlemail.io/inline/](https://htmlemail.io/inline/) (free)  
+-   [https://htmlemail.io/inline/](https://htmlemail.io/inline/) (free)
     
 -   [https://app.postdrop.io/](https://app.postdrop.io/) (free)  
 
