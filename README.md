@@ -42,23 +42,23 @@ Note that these will not be heavily styled. If you need to style further, the ea
   
 **Base**
 ```
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
-	<meta name="viewport" content="width=device-width">  
-	<title>Your Title</title>  
-</head>  
-<body style="padding: 0; margin: 10px;">
-    <!-- if desired, insert pre-header here. --> 
-	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">  
-		<tr>  
-			<td>  
-				<!-- paste additional elements here! -->  
-			</td>  
-		</tr>  
-	</table>  
-</body>  
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<meta  http-equiv="Content-Type"  content="text/html; charset=utf-8">
+	<meta  name="viewport"  content="width=device-width">
+	<title>Your Title</title>
+</head>
+<body  style="padding: 0; margin: 10px;">
+	<table  class="container"  style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">
+		<!-- place preheader here -->
+		<tr>
+			<td>
+				<!-- place elements here -->
+			</td>
+		</tr>
+	</table>
+</body>
 </html>
 ```
 
@@ -80,6 +80,8 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Main content**
 ```
+  
+
 <table  class="main-content"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; width: 100%;"  width="100%">
 	<tr>
 		<td>
@@ -87,7 +89,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 				Hello!
 			</p>
 			<p  style="margin: 0 0 16px 0;">
-				This is some basic test content. I hope that this email
+				This is some basic test content! I hope that this email
 				template proves to be handy!
 			</p>
 			<p  style="margin: 0 0 16px 0;">
@@ -106,6 +108,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 				Test footer
 			</p>
 			<a  rel="noopener"  href="mailto:YOUREMAIL@test.com">youremail@test.com</a>
+			<br>
 			<a  id="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank">unsubscribe</a>
 		</td>
 	</tr>
