@@ -105,7 +105,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 			<p  style="margin: 16px 0;">
 				Test footer
 			</p>
-			<a  id="unsubscribe-link"  rel="noopener"  href="REPLACEME"  target="_blank">unsubscribe</a>
+			<a  id="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank">unsubscribe</a>
 		</td>
 	</tr>
 </table>
