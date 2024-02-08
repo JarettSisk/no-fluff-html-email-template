@@ -50,7 +50,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 	<title>Your Title</title>
 </head>
 <body  style="padding: 0; margin: 10px;">
-	<table  class="container"  style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">
+	<table  class="container" role="presentation"  style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">
 		<!-- place preheader here -->
 		<tr>
 			<td>
@@ -139,7 +139,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 **Button (CTA)**
 ```
-<table  class="button"  style="border: 0; border-spacing: 0; padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C; margin: 0 0 16px 0;"  bgcolor="#1F7F4C">
+<table  class="button" role="presentation"  style="border: 0; border-spacing: 0; padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C; margin: 0 0 16px 0;"  bgcolor="#1F7F4C">
 	<tr>
 		<td  style="text-align: center;"  align="center">
 			<a  rel="noopener"  href="https://www.google.com/"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: block; text-align: center;">I am a button</a>
