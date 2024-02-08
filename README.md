@@ -55,7 +55,7 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 	<title>Your Title</title>  
 </head>  
 <body style="padding: 0; margin: 10px;">
-    <!-- if desired, insert pre-header here. --> 
+    	<!-- if desired, insert pre-header here. --> 
 	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; width: 640px;"  width="640">  
 		<tr>  
 			<td>  
@@ -69,12 +69,12 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 
 **Pre header**
 ```
-<span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
+<span  class="preheader"  style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
 ```
 
 **Header**
 ```
-<table  class="header"  role="presentation"  style="border: 0; padding: 0; width: 100%;"  width="100%">
+<table  class="header"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; width: 100%;"  width="100%">
 	<tr>
 		<td>
 			<h1>Test Header</h1>
@@ -85,19 +85,18 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 
 **Main content**
 ```
-<table  class="main-content"  role="presentation"  style="border: 0; padding: 0; width: 100%;"  width="100%">
+<table  class="main-content"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; width: 100%;"  width="100%">
 	<tr>
 		<td>
-			<p  style="margin: 16px 0;">
-				Hello!,
+			<p  style="margin: 0 0 16px 0;">
+				Hello!
 			</p>
-			<p  style="margin: 16px 0;">
-				This is some basic test content! I hope that this email <br>
+			<p  style="margin: 0 0 16px 0;">
+				This is some basic test content. I hope that this email
 				template proves to be handy!
 			</p>
-			<p  style="margin: 16px 0;">
-				Thank you!,<br>
-				tester@test.com
+			<p  style="margin: 0 0 16px 0;">
+				Thank you!
 			</p>
 		</td>
 	</tr>
@@ -105,13 +104,13 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 ```
 **Footer**
 ```
-<table  class="footer"  role="presentation"  style="border: 0; padding: 0; width: 100%;"  width="100%">
+<table  class="footer"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; width: 100%;"  width="100%">
 	<tr>
 		<td>
-			<p style="margin: 16px 0;">
+			<p  style="margin: 16px 0;">
 				Test footer
 			</p>
-			<a  id="unsubscribe-link" rel="noopener" href="REPLACEME"  target="_blank">unsubscribe</a>
+			<a  id="unsubscribe-link"  rel="noopener"  href="REPLACEME"  target="_blank">unsubscribe</a>
 		</td>
 	</tr>
 </table>
@@ -124,7 +123,7 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 
 **Unordered List**
 ```
-<table  class="unordered-list"  role="presentation"  style="border: 0; padding: 0; width: 100%; margin-left: 16px;"  width="100%">
+<table  class="unordered-list"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; margin-left: 12px;">
 	<tr>
 		<td  style="vertical-align: top;"  valign="top">•</td>
 		<td  style="vertical-align: top;"  valign="top">List item 1</td>
@@ -144,8 +143,13 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 <table  class="button"  style="padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C;"  bgcolor="#1F7F4C">
 	<tr>
 		<td  style="text-align: center;"  align="center">
-			<a  rel="noopener"  href="REPLACEME"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>
+			<a  rel="noopener"  href="https://www.google.com/"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>
 		</td>
 	</tr>
 </table>
+```
+
+**Link**
+```
+<a  id="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank">unsubscribe</a>
 ```
