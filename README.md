@@ -54,7 +54,8 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 	<meta name="viewport" content="width=device-width">  
 	<title>Your Title</title>  
 </head>  
-<body style="padding: 0; margin: 10px;">  
+<body style="padding: 0; margin: 10px;">
+    <!-- if desired, insert pre-header here. --> 
 	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; width: 640px;"  width="640">  
 		<tr>  
 			<td>  
@@ -64,6 +65,11 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 	</table>  
 </body>  
 </html>
+```
+
+**Pre header**
+```
+<span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span>
 ```
 
 **Header**
@@ -105,10 +111,15 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 			<p style="margin: 16px 0;">
 				Test footer
 			</p>
-			<a  id="unsubscribe-link"  href="REPLACEME"  target="_blank">unsubscribe</a>
+			<a  id="unsubscribe-link" rel="noopener" href="REPLACEME"  target="_blank">unsubscribe</a>
 		</td>
 	</tr>
 </table>
+```
+
+**Clickable email address**
+```
+<a rel="noopener" href="mailto:name@email.com">youremail@test.com</a>
 ```
 
 **Unordered List**
@@ -126,5 +137,15 @@ then use [https://app.postdrop.io/](https://app.postdrop.io/) to **inline** all 
 		<td  style="vertical-align: top;"  valign="top">•</td>
 		<td  style="vertical-align: top;"  valign="top">List item 3</td>
 	</tr>
+</table>
+```
+**Button (CTA)**
+```
+<table border="0" cellspacing="0" cellpadding="0">  
+	<tr>  
+		<td style="padding: 12px 18px 12px 18px; border-radius:5px; background-color: #1F7F4C;" align="left">
+			<a rel="noopener" href="REPLACEME" target="_blank" style="font-size: 18px; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>  
+		</td>  
+	</tr>  
 </table>
 ```
