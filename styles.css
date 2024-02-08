@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 10px;
+}
+
+/* Container (wrapper) */
+.container {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    width: 640px;
+}
+
+/* All nested p tags */
+.container p {
+    margin: 16px 0;
+}
+
+/* All nested tables */
+.conatiner table {
+    border: 0;
+    padding: 0;
+    width: 100%
+}
+
+/* Unordered list */
+.container .unordered-list td {
+    vertical-align: top;
+}
+
+/* Button */
+.container .button {
+    padding: 12px 18px 12px 18px;
+    border-radius:5px; 
+    background-color: #1F7F4C;
+}
+.container .button td {
+    text-align: center;
+}
+.container .button a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
