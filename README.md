@@ -51,7 +51,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 </head>  
 <body style="padding: 0; margin: 10px;">
     <!-- if desired, insert pre-header here. --> 
-	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; width: 640px;"  width="640">  
+	<table class="container" style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">  
 		<tr>  
 			<td>  
 				<!-- paste additional elements here! -->  
