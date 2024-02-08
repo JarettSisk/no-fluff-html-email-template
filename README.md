@@ -102,9 +102,10 @@ Note that these will not be heavily styled. If you need to style further, the ea
 <table  class="footer"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; width: 100%;"  width="100%">
 	<tr>
 		<td>
-			<p  style="margin: 16px 0;">
+			<p  style="margin: 0 0 16px 0;">
 				Test footer
 			</p>
+			<a  rel="noopener"  href="mailto:YOUREMAIL@test.com">youremail@test.com</a>
 			<a  id="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank">unsubscribe</a>
 		</td>
 	</tr>
@@ -118,7 +119,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Unordered List**
 ```
-<table  class="unordered-list"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; margin-left: 12px;">
+<table  class="unordered-list"  role="presentation"  style="border: 0; border-spacing: 0; padding: 0; margin: 0 0 16px 12px;">
 	<tr>
 		<td  style="vertical-align: top;"  valign="top">•</td>
 		<td  style="vertical-align: top;"  valign="top">List item 1</td>
@@ -135,10 +136,10 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 **Button (CTA)**
 ```
-<table  class="button"  style="padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C;"  bgcolor="#1F7F4C">
+<table  class="button"  style="border: 0; border-spacing: 0; padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C; margin: 0 0 16px 0;"  bgcolor="#1F7F4C">
 	<tr>
 		<td  style="text-align: center;"  align="center">
-			<a  rel="noopener"  href="https://www.google.com/"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: inline-block;">I am a button</a>
+			<a  rel="noopener"  href="https://www.google.com/"  target="_blank"  style="font-size: 18px; color: #ffffff; text-decoration: none; display: block; text-align: center;">I am a button</a>
 		</td>
 	</tr>
 </table>
