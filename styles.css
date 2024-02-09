@@ -5,7 +5,7 @@ body {
 
 /* Container (wrapper) */
 .container {
-    font-family: Calibri, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight: normal;
     max-width: 640px;
