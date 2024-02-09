@@ -1,4 +1,5 @@
 
+
 # Basic html email template
 
 A list of resources and code snippets to help get you up and running with your html email template.
@@ -33,6 +34,10 @@ The most straightforward option (imo) is to base 64 encode the image and use the
  Here is a site listing other options to embed your images
  
  - https://www.pipedrive.com/en/blog/embedding-images-in-emails
+
+**Additional resources:**  
+- https://templates.mailchimp.com/resources/email-client-css-support/ (Email provider css support)
+
 
 ## The Template
 
