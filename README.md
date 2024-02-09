@@ -58,7 +58,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 	<title>Your Title</title>
 </head>
 <body  style="padding: 0; margin: 10px;">
-	<table  class="container" role="presentation"  style="font-family: sans-serif, Arial, Helvetica; font-size: 16px; font-weight: normal; max-width: 640px;">
+	<table  class="container" role="presentation"  style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">
 		<!-- place preheader here -->
 		<tr>
 			<td>
@@ -125,7 +125,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Clickable email address**
 ```
-<a  class="mailto-link"  rel="noopener"  href="mailto:YOUREMAIL@test.com"  style="display: block; margin: 0;">youremail@test.com</a>
+<a class="mailto-link" rel="noopener" href="mailto:YOUREMAIL@test.com" style="display: block; margin: 0; color: blue;">youremail@test.com</a>
 ```
 
 **Unordered List**
@@ -158,7 +158,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Unsubscribe Link**
 ```
-<a  class="unsubscribe-link"  rel="noopener"  href="https://www.google.com/"  target="_blank"  style="display: block; margin: 0;">unsubscribe</a>
+<a class="unsubscribe-link" rel="noopener" href="https://www.google.com/" target="_blank" style="display: block; margin: 0; color: blue; font-size: 12px;">unsubscribe</a>
 ```
 **Image**
 ```
