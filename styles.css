@@ -11,16 +11,22 @@ body {
     max-width: 640px;
 }
 
-/* All nested p tags */
+/* All p tags */
 .container p {
     margin: 0 0 16px 0;
 }
 
-/* All nested tables */
+/* All tables */
 .container table {
     border: 0;
     border-spacing: 0;
     padding: 0;
+}
+
+/* All images */
+.container img {
+    width: 300px;
+    display: block;
 }
 
 /* Preheader */
@@ -78,5 +84,14 @@ body {
     text-align: center;
 }
 
+/* Unsubscribe link */
+.unsubscribe-link {
+    display: block;
+    margin: 0;
+}
 
-
+/* Mailto link */
+.mailto-link {
+    display: block;
+    margin: 0;
+}
