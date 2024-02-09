@@ -16,6 +16,8 @@ Last updated Feb 8th 2024.
     
 -   [https://app.postdrop.io/](https://app.postdrop.io/) (free)  
 
+- https://templates.mailchimp.com/resources/inline-css/ (free)
+
 **Need to send test emails?**  
 
 -   [https://app.postdrop.io/](https://app.postdrop.io/) (free)  
