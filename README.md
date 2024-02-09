@@ -58,7 +58,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 	<title>Your Title</title>
 </head>
 <body  style="padding: 0; margin: 10px;">
-	<table  class="container" role="presentation"  style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: normal; max-width: 640px;">
+	<table  class="container" role="presentation"  style="font-family: sans-serif, Arial, Helvetica; font-size: 16px; font-weight: normal; max-width: 640px;">
 		<!-- place preheader here -->
 		<tr>
 			<td>
