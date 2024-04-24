@@ -6,7 +6,7 @@
 A list of resources and code snippets to help get you up and running with your html email template.
 Note that this is not a bullet-proof solution. As with anything in tech, there is high chance for change. These are merely the solutions Ive came to after a reasonable amount of research and testing.
 
-Last updated Feb 8th 2024.
+Last updated Apr 23rd 2024.
 
 ## Resources
 
