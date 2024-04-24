@@ -68,7 +68,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
 				<!-- place elements here -->
 			</td>
 			<!-- Empty td to fill in dead space (dont remove) -->
-            <td></td>
+            		<td></td>
 		</tr>
 	</table>
 </body>
