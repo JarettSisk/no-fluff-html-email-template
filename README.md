@@ -47,7 +47,7 @@ Note that these will not be heavily styled. If you need to style further, the ea
   
 **Base**
 ```
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -61,10 +61,10 @@ Note that these will not be heavily styled. If you need to style further, the ea
 </xml><![endif]-->
 </head>
 <body style="padding: 0; margin: 10px;">
-    <!-- place pre-header here -->
-    <table class="container" role="presentation" style="border-spacing: 0; padding: 0; font-family: Calibri, Arial, sans-serif; font-size: 16px; border: 0; width: 100%;" width="100%">
-        <tr>
-            <td class="widthWrapper" style="font-family: Calibri, Arial, sans-serif; width: 640px;" width="640">
+<!-- place pre-header here -->
+<table class="container" role="presentation" style="border-spacing: 0; padding: 0; font-family: Arial, sans-serif; font-size: 16px; border: 0; width: 100%;" width="100%">
+    <tr>
+        <td class="widthWrapper" style="font-family: Arial, sans-serif; width: 640px;" width="640">
 				<!-- place elements here -->
 			</td>
 			<!-- Empty td to fill in dead space (dont remove) -->
@@ -84,8 +84,8 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 <table class="header" role="presentation" style="border: 0; border-spacing: 0; padding: 0; width: 100%;" width="100%">
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif;">
-            <h1 style="font-family: Calibri, Arial, sans-serif;">Test Header</h1>
+        <td style="font-family: Arial, sans-serif;">
+            <h1 style="font-family: Arial, sans-serif;">Test Header</h1>
         </td>
     </tr>
 </table>
@@ -95,15 +95,15 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 <table class="main-content" role="presentation" style="border: 0; border-spacing: 0; padding: 0; width: 100%;" width="100%">
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif;">
-            <p style="margin: 0 0 16px 0; font-family: Calibri, Arial, sans-serif; font-size: 16px;">
+        <td style="font-family: Arial, sans-serif;">
+            <p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 16px;">
                 Hello!
             </p>
-            <p style="margin: 0 0 16px 0; font-family: Calibri, Arial, sans-serif; font-size: 16px;">
+            <p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 16px;">
                 This is some basic test content! I hope that this email
                 template proves to be handy!
             </p>
-            <p style="margin: 0 0 16px 0; font-family: Calibri, Arial, sans-serif; font-size: 16px;">
+            <p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 16px;">
                 Thank you!
             </p>
         </td>
@@ -114,8 +114,8 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 <table class="footer" role="presentation" style="border: 0; border-spacing: 0; padding: 0; width: 100%;" width="100%">
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif;">
-            <p style="margin: 0 0 16px 0; font-family: Calibri, Arial, sans-serif; font-size: 16px;">
+        <td style="font-family: Arial, sans-serif;">
+            <p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 16px;">
                 Test footer
             </p>
         </td>
@@ -125,23 +125,23 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Clickable email address**
 ```
- <a class="mailto-link" rel="noopener" href="mailto:YOUREMAIL@test.com" target="_blank" title="extra information about link" style="display: block; margin: 0; color: blue;">youremail@test.com</a>
+<a class="mailto-link" rel="noopener" href="mailto:YOUREMAIL@test.com" target="_blank" title="extra information about link" style="margin: 0; color: blue;">youremail@test.com</a>
 ```
 
 **Unordered List**
 ```
 <table class="unordered-list" role="presentation" style="border: 0; border-spacing: 0; padding: 0; margin: 0 0 16px 12px;">
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">•</td>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">List item 1</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">•</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">List item 1</td>
     </tr>
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">•</td>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">List item 2</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">•</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">List item 2</td>
     </tr>
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">•</td>
-        <td style="font-family: Calibri, Arial, sans-serif; vertical-align: top;" valign="top">List item 3</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">•</td>
+        <td style="font-family: Arial, sans-serif; vertical-align: top;" valign="top">List item 3</td>
     </tr>
 </table>
 ```
@@ -149,8 +149,8 @@ Note that these will not be heavily styled. If you need to style further, the ea
 ```
 <table class="button" role="presentation" style="border: 0; border-spacing: 0; padding: 12px 18px 12px 18px; border-radius: 5px; background-color: #1F7F4C; margin: 0 0 16px 0;" bgcolor="#1F7F4C">
     <tr>
-        <td style="font-family: Calibri, Arial, sans-serif; text-align: center;" align="center">
-            <a rel="noopener" href="https://www.google.com/" target="_blank" title="extra information about link" style="font-size: 18px; color: #ffffff; text-decoration: none; display: block; text-align: center;">I am a button</a>
+        <td style="font-family: Arial, sans-serif; text-align: center;" align="center">
+            <a rel="noopener" href="https://www.google.com/" target="_blank" title="extra information about link" style="font-size: 18px; color: #ffffff; text-decoration: none; text-align: center;">I am a button</a>
         </td>
     </tr>
 </table>
@@ -158,9 +158,33 @@ Note that these will not be heavily styled. If you need to style further, the ea
 
 **Unsubscribe Link**
 ```
-<a class="unsubscribe-link" rel="noopener" href="https://www.google.com/" target="_blank" title="extra information about link" style="display: block; margin: 0; color: blue; font-size: 12px;">unsubscribe</a>
+<a class="unsubscribe-link" rel="noopener" href="https://www.google.com/" target="_blank" title="extra information about link" style="margin: 0; color: blue; font-size: 12px;">unsubscribe</a>
 ```
 **Image**
 ```
 <img alt="Your Image Description" src="https://www.w3schools.com/images/w3schools_green.jpg">
+```
+
+**Block wrapper (for making any element display as a block)**
+```
+<div class="blockWrapper" style="margin: 0 0 16px 0;">
+    Any element you want to be a block-level element (that isnt natively)
+    IE: a tags, img tags, etc.
+</div>
+<div class="blockWrapperNoMargin" style="margin: 0;">
+    Any element you want to be a block-level element (that isnt natively)
+    IE: a tags, img tags, etc.
+</div>
+```
+
+**Paragraph (block level text with bottom margin)**
+```
+<p style="margin: 0 0 16px 0; font-family: Arial, sans-serif; font-size: 16px;">
+    Hello! I will be writting on a new line.
+</p>
+```
+
+**Bold Text**
+```
+<b>I am bold!</b> OR <strong>I am bold!</strong>
 ```

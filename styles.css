@@ -5,13 +5,12 @@ body {
 
 /* Container (wrapper) */
 .container {
-    font-family: Calibri, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     border: 0;
     width: 100%;
 }
 
-/* width for main email body */
 .widthWrapper {
     width: 640px;
 }
@@ -19,18 +18,18 @@ body {
 /* All p tags */
 p {
     margin: 0 0 16px 0;
-    font-family: Calibri, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
 /* All h1 tags */
 h1 {
-    font-family: Calibri, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* All td tags */
 td {
-    font-family: Calibri, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* All tables */
@@ -91,13 +90,11 @@ table {
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
-    display: block;
     text-align: center;
 }
 
 /* Unsubscribe link */
 .unsubscribe-link {
-    display: block;
     margin: 0;
     color: blue;
     font-size: 12px;
@@ -105,7 +102,14 @@ table {
 
 /* Mailto link */
 .mailto-link {
-    display: block;
     margin: 0;
     color: blue;
+}
+
+.blockWrapper {
+    margin: 0 0 16px 0;
+}
+
+.blockWrapperNoMargin {
+    margin: 0;
 }
